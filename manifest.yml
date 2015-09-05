@@ -1,0 +1,12 @@
+applications:
+- services:
+  - xlab-personality_insights
+  - xlab-MonitoringAndAnalytics
+  disk_quota: 1024M
+  host: xlab
+  name: xlab
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
